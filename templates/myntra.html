@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="../static/images/myntra2.jpg" alt="" height="100px" width="110px">
+        <input type="text" placeholder="Search for products, brands and more" class="search">
+        <button type="submit" class="glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="#" class="login">Login</a>
+        <p>Become a Seller</p>
+        <p>More  <i class="fa-solid fa-chevron-down"></i></p>
+        <p  class="icon"><i class="fa-solid fa-cart-shopping" style="color: white;"></i>  cart</p>
+    </header>
+
+    <div class="items">
+        <ul>
+            <li class="grodiv"><a href="#"><img src="../static/images/men.jpg" alt="" height="75px">
+                <p>MEN</p></a>
+            <div class="dropdw" >
+                <ul>
+                    <li><a href="{{url_for('men',counter='1',operation='increment')}}">Casual shirt</a></li>
+                    <li><a href="{{url_for('women',counter='1',operation='increment')}}">Formal shirt</a></li>
+                    <li><a href="#">Suits</a></li>
+                    <!-- <li><a href="#">Jeans</a></li>
+                    <li><a href="#">T shirts</a></li> -->
+                </ul>
+            </div>
+            </li>
+
+            <li class="grodiv"><a href="#"><img src="../static/images/women.png" alt="" height="75px">
+                <p>WOMEN</p></a>
+            <div class="dropdw" >
+                <ul>
+                    <li><a href="{{url_for('kids')}}">choli</a></li>
+                    <li><a href="#">Kurtas</a></li>
+                    <li><a href="#">Duppatas</a></li>
+                    <!-- <li><a href="#">lehenga ccholis</a></li>
+                    <li><a href="#">T shirt</a></li> -->
+                </ul>
+            </div>
+            </li>
+
+            <li class="grodiv"><a href="#"><img src="../static/images/living.jpg" alt="" height="75px">
+                <p class="kids">KIDS</p></a>
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            </li>
+
+            <li class="grodiv"><a href="#"><img src="../static/images/living.jpg" alt="" height="75px">
+                <p class="home&living">HOME & LIVING</p></a>
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            </li>
+
+            <li class="grodiv"><a href="#"><img src="../static/images/beauty.jpg" alt="" height="75px">
+                <p>BEAUTY</p></a>
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            </li>         
+            
+            <li class="grodiv"><a href="#"><img src="../static/images/watch.jpg" alt="" height="75px">
+                <p>WATCH</p></a> 
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            <!-- </li> -->
+            
+            <!-- <li class="grodiv"><a href="#"><img src="../static/images/flight.png" alt="" height="75px">
+                <p>Travel</p></a>
+            <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            <!-- </li> --> -->
+            
+            <!-- <li class="grodiv"><a href="#"><img src="../static/images/toys.png" alt="" height="75px">
+                <p>Toys & more</p></a> -->
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> -->
+            <!-- </li>
+            
+             <li class="grodiv"><a href="#"><img src="../static/images/5F7C6912-B8FB-4207-88A0-653B507AC765-removebg-preview.png" alt="" height="75px">
+                <p >S</p></a> -->
+            <!-- <div class="dropdw" >
+                <ul>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Oil</a></li>
+                    <li><a href="#">Flour</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Grains</a></li>
+                </ul>
+            </div> --> 
+            </li> 
+        </ul>
+            
+    </div>
+
+    <div class="backgroundimg">
+        <img src="../static/images/kids.jpg" alt="" height="650px" width="100%">
+    </div>
+</body>
+</html>
+
+

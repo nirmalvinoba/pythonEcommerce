@@ -1,0 +1,275 @@
+header{
+    background-color:rgb(255,186,232);
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+header img{
+    /* background-color: black; */
+    height: 71px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.search{
+    height: 40px;
+    width: 430px;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.glass{
+    position: absolute;
+    left: 44%;
+    font-size: 20px;
+    top: 7%;
+    border: none;
+    background-color: white;
+    color:black;
+}
+
+.login{
+    border: 1px solid gray;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 21px;
+    text-decoration-line: none;
+    margin-top: 26px;
+    margin-left: 18px;
+    color: black;
+}
+
+header p{
+    font-size: 25px;
+    margin-top: 27px;
+    color: white;
+    margin-left: 40px;
+}
+
+.homie{
+    text-decoration-line: none;
+    font-size: 22px;
+    margin-left:37px;
+    margin-top: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+/* items section starts here  */
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+    height: 100px;
+    /* border-bottom: 5px solid gray; */
+    list-style: none;
+    /* width: 100%; */
+    padding-top: 5px;
+    background-color: rgb(255,186,232);
+
+}
+
+
+
+.items  ,p{
+    margin-top: -5px;
+    margin-left: 1px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.items a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.dropdw ul li a{
+    padding-left: 20px;
+    line-height: 33px;
+}
+
+.grodiv{
+    position: relative;
+    margin-top: 5px;
+}
+
+.dropdw{
+    display: none;
+    position: absolute;
+    top: 95px;
+}
+.dropdw ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdw ul li{
+    display: block;
+    padding: 0;
+}
+
+.grodiv:hover .dropdw{
+    display: block;
+    background-color: white;
+    height: 150px;
+    width: 130px;
+
+}
+
+
+/* .grodiv:hover .dropdw ul li{
+    border-bottom: 1px solid black;
+} */
+
+.fashion{
+    margin-left: 35px;
+}
+
+
+
+/* rice page starts here  */
+
+
+.bg img{
+    filter: brightness(80%);
+    /* filter: blur(4px); */
+    position: relative;
+}
+
+.bg h1{
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    color: white;
+    
+}
+
+.header{
+    background-color: rgb(255,186,232);;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.header h1{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+
+
+.search1{
+    height: 40px;
+    width: 530px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.glass1{
+    position: absolute;
+    left: 46.5%;
+    font-size: 20px;
+    top: 32%;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.login1{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 21px;
+    text-decoration-line: none;
+    margin-top: 15.5px;
+    margin-left: 20px;
+}
+
+.header p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 40px;
+}
+
+.products{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.menitems{
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    background-color: #7777;
+    text-align: center;
+}
+
+.menitems h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.menitems h3{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.menitems select{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.addsub{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.addsub h1{
+    margin-top:2.5px;
+}
+
+.addsub button{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+
+
+

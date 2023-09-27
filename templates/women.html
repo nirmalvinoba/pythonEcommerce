@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="bg">
+        <img src="../static/images/originaloilbg.avif" alt="" height="795px" width="100%">
+        <h1>Women Outfit</h1>
+    </div>
+
+
+        <div class="header">  
+            <h1>WOMEN</h1>
+            <input type="text" placeholder="Search for products, brands and more" class="search1">
+            <button type="submit" class="glass1"><i class="fa-solid fa-magnifying-glass" style="color: black;"></i></button>
+            <a href="#" class="login1">Login</a>
+            <p>Become a Seller</p>
+            <p>More  <i class="fa-solid fa-chevron-down"></i></p>
+            <p  class="icon"><i class="fa-solid fa-cart-shopping" style="color: black;"></i>  cart</p>
+        </div> 
+
+        <div class="products">
+            <div class="menitems">
+                <h1>Choli</h1>
+                <img src="../static/images/choli.jpg" alt="" height="150px" width="120px">
+                <h2>Sponsored : Myntra</h2>
+                <select>
+                    <option value="1Qty">1Qty</option>
+                    <option value="1Qty">2Qty</option>
+                    <option value="1Qty">3Qty</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/1/decrement" method="post"><button>-</button></form>
+                    <h1>{{count1}}</h1>
+                    <form action="/operate/1/increment" method="post"><button>+</button></form>
+                </div>
+
+            </div>
+
+            <div class="menitems">
+                <h1>Kurtas</h1>
+                <img src="../static/images/kurtas.jpg" alt="" height="150px" width="150px">
+                <h2>Sponsored : Myntra</h2>
+                <select>
+                    <option value="1Qty">1Qty</option>
+                    <option value="1Qty">2Qty</option>
+                    <option value="1Qty">3Qty</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/2/decrement" method="post"><button>-</button></form>
+                    <h1>{{count2}}</h1>
+                    <form action="/operate/1/increment" method="post"><button>+</button></form>
+                </div>
+
+            </div>
+
+            <div class="menitems">
+                <h1>Duppatas</h1>
+                <img src="../static/images/Duppatas.jpg" alt="" height="150px" width="150px">
+                <h2>Sponsored : Myntra</h2>
+                <select>
+                    <option value="1Qty">1Qty</option>
+                    <option value="1Qty">2Qty</option>
+                    <option value="1Qty">3Qty</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/3/decrement" method="post"><button>-</button></form>
+                    <h1>{{count3}}</h1>
+                    <form action="/operate/3/increment" method="post"><button>+</button></form>
+                </div>
+
+            </div>
+        </div>
+</body>
+</html> 
